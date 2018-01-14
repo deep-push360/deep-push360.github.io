@@ -1,3 +1,9 @@
+---
+layout: page
+title: 
+subtitle: 
+---
+
 
 ## Contributing to DeepPush repositories
 Developed by Kayode Olaleye, ...
@@ -12,7 +18,7 @@ This guide assumes the reader has an account on GitHub and already familiar with
 
 
 
-```python
+```
 $ git clone https://github.com/username/toxicology.git 
 ```
 
@@ -21,28 +27,28 @@ Remember to change username to your GitHub username.
 From the same terminal path, change into that project directory:
 
 
-```python
+```
 $ cd toxicology
 ```
 
 **Step 3**: Connect to the original repository (in this case, https://github.com/deep-push360/toxicology.git 
 
 
-```python
+```
 $ git remote add deep-push360 https://github.com/deep-push360/toxicology.git 
 ```
 
 To check the remote add setup:
 
 
-```python
+```
 $ git remote -v
 ```
 
 **Step 4**: Make changes to any file in the local copy and `git add` and `git commit` those changes
 
 
-```python
+```
 $ git add filename
 $ git commit -m 'updated filename'
 ```
@@ -50,14 +56,14 @@ $ git commit -m 'updated filename'
 **Step 5**: Check that your version is up to date relative to your **deep-push360**'s version. It is very important to always do this before you make changes to any file(s) locally. This will pull down and merge all of the changes that has been made to deep-push360 version.
 
 
-```python
+```
 $ git pull deep-push360 master
 ```
 
 **Step 6**: Push them back to your remote copy
 
 
-```python
+```
 $ git push
 ```
 
@@ -74,7 +80,3 @@ This section will only cover how to create a pull from a forked repository. Crea
 - Enter a title and description for your pull request.
 - Finally, click on the green "Send pull request" button to finish creating the pull request.
 
-
-```python
-
-```
